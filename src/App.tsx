@@ -1,10 +1,7 @@
-import React from "react";
-
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import { Header } from "./common components/Header";
 import { Blog } from "./components/Blog";
 import { BlogProvider } from "./context/BlogContext";
 import { PostDetails } from "./components/PostDetails";
